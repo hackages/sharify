@@ -1,0 +1,17 @@
+{
+    "version": "0.1.0",
+    "command": "nodemon",
+    "isShellCommand": true,
+    "args": [
+        "--harmony"
+    ],
+    "tasks": [
+        {
+            "taskName": "runFile",
+            "suppressTaskName": true,
+            "showOutput": "always",
+            "problemMatcher": "$jshint",
+            "args": ["${file}"]
+        }
+    ]
+}
