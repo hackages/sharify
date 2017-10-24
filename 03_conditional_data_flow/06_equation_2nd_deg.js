@@ -1,4 +1,4 @@
-// Dans ce dernier exercice sur le if/else if/else
+// Dans cet exercice sur le if/else if/else
 // Complétez la fonction suivante pour qu'elle arrive à calculer des équations du second degré
 // Rappel:
 // https://www.mathematiquesfaciles.com/equation-second-degre_2_100601.htm

@@ -1,0 +1,1 @@
+// écrire une boucle qui va afficher dans la console tous les nombres comrpis entre 100 et 2000 divisibles par 7.
