@@ -9,8 +9,12 @@
  * * *
  * * * *
  **/
-function sapin(){
-
+function sapin(taille, signe){
+    let branche = "";
+    for(let i=0; i<=taille; i++){
+        branche += signe;
+        console.log(branche);
+    }
 }
 
-sapin(4);
+sapin(4, "*");
