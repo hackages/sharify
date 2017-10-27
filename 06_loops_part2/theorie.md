@@ -9,7 +9,7 @@ Il faut savoir qu'il y en a d'autres, qui permettent de parcourir les tableaux, 
 ```JavaScript
 let array = ["Marc", "Greg", "Antonio"];
 
-for(index in array)
+for(let index in array)
 {
     console.log(array[index]);
 }
@@ -47,9 +47,9 @@ Le code ci-dessus va donner exactement le même résultat que le premier, mais e
 ```JavaScript
 let array = ["Marc", "Greg", "Antonio"];
 
-for(item of array)
+for(let item of array)
 {
-    console.log(index);
+    console.log(item);
 }
 ```
 
