@@ -1,0 +1,36 @@
+<div style="display:inline-block; position:fixed" id="playerParent">
+    <div id="joueur" style="width: 100; height:150; background:url('img/idle.png') no-repeat; background-size:100%;"></div>
+    <div style="width:100; height:20; border: 2px solid black; margin-top:10px;">
+        <div id="hpPlayer" style="width:100%; height:100%; background-color:green;">
+    
+        </div>
+    </div>
+</div>
+
+<div style="display:inline-block; position:fixed" id="ennemyParent">
+    <div id="ennemi" style="width: 100; height:150; background:url('img/enn_idle.png') no-repeat; background-size:100%;"></div>
+    <div style="width:100; height:20; border: 2px solid black; margin-top:10px;">
+        <div id="hpEnnemy" style="width:100%; height:100%; background-color:green ;">
+    
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+@keyframes animJoueur {
+    0% {background: url("img/idle.png") no-repeat; background-size:100%;}
+    30% {background: url("img/att1.png") no-repeat; background-size:100%;}
+    60% {background: url("img/att2.png") no-repeat; background-size:100%;}
+    100% {background: url("img/att3.png") no-repeat; background-size:100%;}
+}
+    @keyframes animEnnemi {
+    0% {background: url("img/enn_idle.png") no-repeat; background-size:100%;}
+    30% {background: url("img/enn_att1.png") no-repeat; background-size:100%;}
+    60% {background: url("img/enn_att2.png") no-repeat; background-size:100%;}
+    100% {background: url("img/enn_att3.png") no-repeat; background-size:100%;}
+}
+</style>
+<script src="06_mouvement.js"></script>
