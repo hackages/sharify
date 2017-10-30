@@ -35,30 +35,3 @@ const users = [
     sexe: 'F'
   }
 ];
-
-let list = $('<table>').addClass('table');
-
-const header = $('<thead>').html($('<tr>')
-  .append($('<td>'))
-  .html('<th>id</th>' + '<th>name</th>' + '<th>sexe</th>'));
-
-list.append(header);
-
-const body = $('<tbody>');
-
-for(let user of users){
-  const tempRow = $('<tr>');
-  if(user.sexe === 'F'){
-    tempRow.css('background', 'tomato');
-  } else {
-    tempRow.css('background', 'turquoise');
-  }
-  tempRow.append($('<td>').text(user.id));
-  tempRow.append($('<td>').text(user.name));
-  tempRow.append($('<td>').text(user.sexe));
-  body.append(tempRow);
-}
-
-list.append(body);
-
-$('#root').html(list);
