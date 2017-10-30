@@ -32,6 +32,6 @@ Nous aurons ce résultat:
 
 ## Exercice
 
-Créer dans le dossier exercice un index.html ainsi qu'un fichier JavaScript qui affichera votre nom dans un popup
+Créer dans le dossier **exercise** un index.html ainsi qu'un fichier JavaScript qui affichera votre nom dans un popup
 
 [Indice](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
