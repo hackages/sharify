@@ -108,6 +108,7 @@ for(let name of names){
   const tempUl = $('<li>');
   // On insére le nom en tant que texte du <li>
   tempUl.text(name);
+  list.append(tempUl);
 }
 
 // Quand la boucle est finie on ajoute la liste dans <div id="main"></div>
