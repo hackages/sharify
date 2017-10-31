@@ -37,7 +37,7 @@ Via le formulaire:
 ```JavaScript
 const form = $('#my-form');
 const age = form.find('[name=age]');
-const value = input.val();
+const value = age.val();
 ```
 
 ## Empêcher la soumission d'un formulaire
