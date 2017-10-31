@@ -1,0 +1,21 @@
+.spam {
+  color: tomato;
+}
+
+.border {
+  border: 2px dotted turquoise;
+}
+
+
+.selected:before {
+  content: 'SPOOKY SCARRY SKELETON';
+}
+
+.selected {
+  background-color: orange;
+  border: 10px solid green;
+}
+
+.selected:after{
+  content: '2spooky5me';
+}
