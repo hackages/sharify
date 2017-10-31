@@ -1,0 +1,12 @@
+.spam {
+  color: tomato;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.red-background {
+  background-color:red;
+  color: white;
+}
