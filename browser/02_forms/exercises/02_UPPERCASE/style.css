@@ -1,0 +1,16 @@
+.spam {
+  color: red;
+  animation: rotate360deg 0.5s infinite;
+  font-size: 5rem;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate360deg {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
