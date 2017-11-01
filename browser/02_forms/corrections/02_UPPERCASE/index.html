@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercise 01</title>
+</head>
+<body>
+  <!--
+    Dès que du texte est entré dans l'input ou qu'une option 
+    est changée, mettre à jour le texte dans <p id="text"></p>
+    en fonction de l'option.
+
+    "Uppercase" -> majuscule
+    "lowercase" -> minuscule
+    "reverse" -> Afficher le texte dans l'autre sens (kayak -> kayak)
+
+    Pour récuperer l'option voir:
+    https://learn.jquery.com/using-jquery-core/faq/how-do-i-get-the-text-value-of-a-selected-option/
+  -->
+  <div>
+    <form>
+      <p><input type="text" name="texte" placeholder="Veuillez entrer votre texte"/></p>
+      <p>
+        <select name="option">
+          <option value="uppercase">Uppercase</option>
+          <option value="lowercase">Lowercase</option>
+          <option value="reverse">Reverse</option>
+        </select>
+   </form>
+   <p id="text"></p>
+  </div>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  <script src="app.js">
+  </script>
+</body>
+</html>
