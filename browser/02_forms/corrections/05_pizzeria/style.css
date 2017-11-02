@@ -1,0 +1,16 @@
+h1, h2{
+  color: white;
+}
+
+.container-image {
+  height: 100vh;
+  width: 100%;
+  background-image: url(bg.jpg);
+  background-position: cover no-repeat;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercise 04</title>
+</head>
+<body>
+  <!-- 
+    Votre but dans cet exercice est de valider le formulaire 
+    Pour qu'il soit valide il faut que le Prénom de l'utilisateur: 
+      - Commence avec une majuscule
+      - Ne fasse pas plus de 30 charactères
+    
+    Que:
+      - Son âge soit valide (entre 1 et 120 ans)
+      
+    Que le champ avec le name company ait la valeur Sharify
+
+    Si toutes ces informations sont valides, afficher un message en fonction du sexe et de l'âge de la personne.
+    Si les informations ne sont pas valides, affichez une erreur indiquant quels champs ne sont pas bons
+  -->
+  <div>
+    <form id="my-form">
+      <p><input type="text" name="firstname" placeholder="Prénom"/></p>
+      <p><input type="text" name="company" placeholder="Entreprise"/></p>
+      <p><input type="number" name="age" placeholder="Age"/></p>
+      <h1>M/F?</h1>
+      <p>
+        <input id="choiceF" type="radio" name="sex" value="F"/>
+        <label for="choiceF">F</label>
+        <input id="choiceM" type="radio" name="sex" value="M"/>
+        <label for="choiceM">M</label>
+      </p>
+      <input type="submit" />
+    </form>
+  </div>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  <script src="app.js">
+  </script>
+</body>
+</html>
