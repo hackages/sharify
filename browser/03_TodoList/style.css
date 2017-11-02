@@ -1,0 +1,9 @@
+.completed {
+  text-decoration: line-through;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.active {
+  font-size: 1.5rem;
+}
