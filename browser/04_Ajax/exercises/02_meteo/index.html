@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+      Quand un utilisateur entre une ville dans l'input field
+      puis appuie sur "récuperer", allez sur le serveur chercher la météo sur
+      /meteo/<votre ville>
+      Ex: /meteo/bruxelles
+
+      Quand vous récuperez la météo, affichez la dans la console
+      pour voir ce que vous pouvez montrer à l'utilisateur
+
+      Affichez la ensuite comme vous voulez
+    -->
+    <input type="text" placeholder="city">
+    <button id="get-btn">Récuperer la météo</button>
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAd3iXnpbuKzzP4PCHhnYF5MUzTThi-uX8",
+        authDomain: "clicker-9c5ee.firebaseapp.com",
+        databaseURL: "https://clicker-9c5ee.firebaseio.com",
+        projectId: "clicker-9c5ee",
+        storageBucket: "",
+        messagingSenderId: "175163560043"
+    };
+    firebase.initializeApp(config);
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
